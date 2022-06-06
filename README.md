@@ -52,5 +52,3 @@ Here is what we expect our service to return:
 
 ## How to start
 Using the IDE of your choice, please initialise a starting Spring Repository using Gradle or Maven.
-
-You are free to code and run the application using any IDE/text editor of your choice. Both builds come with `spring-boot-starter-web` as a dependency, we would prefer you to use Spring but you are definitely free to choose other frameworks/libraries if you see fit.
