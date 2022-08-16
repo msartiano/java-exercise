@@ -1,18 +1,15 @@
 # Image Finder
 
 ## Brief
-We would like to build a Java application which allows others to find images by a search term
+We would like to build a Java application which allows others to find images by a search term.
 
 A basic service would have the following functionalities:
 - Ability to fetch data from an external image searching API
 - Transform and filter the data
 - Create an endpoint to allow retrieval of the transformed data
 
-We could plan to extend the service by introducing:
-- Add test coverage
-- Build a frontend to display the images
 
-For the purpose of this exercise, the external API will be NASA's media searching API
+The external API will be NASA's media searching API:
 
     https://images-api.nasa.gov/search?q=moon
 
@@ -49,6 +46,10 @@ Here is what we expect our service to return:
   ...
 ]
 ```
+
+We could plan to extend the service by introducing:
+- Add test coverage
+- Build a frontend to display the images
 
 ## How to start
 Using the IDE of your choice, please initialise a starting Spring Repository using Gradle or Maven.
